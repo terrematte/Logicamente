@@ -1,0 +1,208 @@
+/*#menuGenerator {
+	background: url("../html/images/bgTeste.jpg") repeat-x;
+	border:1px solid #999999;
+	padding-top:4px;
+	height:17px;
+	text-align:center;
+	width:82px;
+}
+
+#menuGenerator:hover {
+	background: url("../html/images/bgTesteHover.jpg") repeat-x;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#menuGenerator.selected{
+	background: url("../html/images/bgTesteHover.jpg") repeat-x;
+	border-bottom: 1px solid #FFFFFF;
+}*/
+
+#menuGenerator {
+	background: url("../../system/html/images/menuGeneratorBtn.jpg");
+	height:23px;
+	width:82px;
+}
+
+#menuGenerator:hover {
+	background: url("../../system/html/images/menuGeneratorBtnHover.jpg");
+}
+
+#menuGenerator.selected{
+	background: url("../../system/html/images/menuGeneratorBtnHover.jpg");
+}
+
+#menuDiagnoser {
+	background: url("../../system/html/images/menuDiagnoserBtn.jpg");
+	height:23px;
+	width:82px;
+}
+
+#menuDiagnoser:hover {
+	background: url("../../system/html/images/menuDiagnoserBtnHover.jpg");
+}
+
+#menuDiagnoser.selected{
+	background: url("../../system/html/images/menuDiagnoserBtnHover.jpg");
+}
+
+#menuTranslator {
+	background: url("../../system/html/images/menuTranslatorBtn.jpg");
+	height:23px;
+	width:82px;
+}
+
+#menuTranslator:hover {
+	background: url("../../system/html/images/menuTranslatorBtnHover.jpg");
+}
+
+#menuTranslator.selected{
+	background: url("../../system/html/images/menuTranslatorBtnHover.jpg");
+}
+
+#menuChecker {
+	background: url("../../system/html/images/menuCheckerBtn.jpg");
+	height:23px;
+	width:82px;
+}
+
+#menuChecker:hover {
+	background: url("../../system/html/images/menuCheckerBtnHover.jpg");
+}
+
+#menuChecker.selected{
+	background: url("../../system/html/images/menuCheckerBtnHover.jpg");
+}
+
+#menuSettings {
+	background: url("../../system/html/images/menuSettingsBtn.jpg");
+	height:23px;
+	width:82px;
+}
+
+#menuSettings:hover {
+	background: url("../../system/html/images/menuSettingsBtnHover.jpg");
+}
+
+#menuSettings.selected{
+	background: url("../../system/html/images/menuSettingsBtnHover.jpg");
+}
+
+#menuReadFormula {
+	background: url("../../system/html/images/menuReadFormulaBtn.jpg");
+	height:23px;
+	width:114px;
+}
+
+#menuReadFormula:hover {
+	background: url("../../system/html/images/menuReadFormulaBtnHover.jpg");
+}
+
+#menuReadFormula.selected{
+	background: url("../../system/html/images/menuReadFormulaBtnHover.jpg");
+}
+
+
+#menuResolutionGame {
+	background: url("../../system/html/images/menuResolutionGameBtn.jpg");
+	height:23px;
+	width:114px;
+}
+
+#menuResolutionGame:hover {
+	background: url("../../system/html/images/menuResolutionGameBtnHover.jpg");
+}
+
+#menuResolutionGame.selected{
+	background: url("../../system/html/images/menuResolutionGameBtnHover.jpg");
+}
+
+#menuTruthTable {
+	background: url("../../system/html/images/menuTruthTableBtn.jpg");
+	height:23px;
+	width:86px;
+}
+
+#menuTruthTable:hover {
+	background: url("../../system/html/images/menuTruthTableBtnHover.jpg");
+}
+
+#menuTruthTable.selected{
+	background: url("../../system/html/images/menuTruthTableBtnHover.jpg");
+}
+
+#menuTreeInteraction {
+	background: url("../../system/html/images/menuTreeInteractionBtn.jpg");
+	height:23px;
+	width:114px;
+}
+
+#menuTreeInteraction:hover {
+	background: url("../../system/html/images/menuTreeInteractionBtnHover.jpg");
+}
+
+#menuTreeInteraction.selected{
+	background: url("../../system/html/images/menuTreeInteractionBtnHover.jpg");
+}
+
+#menuSubstitutionMaster {
+	background: url("../../system/html/images/menuSubstitutionMasterBtn.jpg");
+	height:23px;
+	width:104px;
+}
+
+#menuSubstitutionMaster:hover {
+	background: url("../../system/html/images/menuSubstitutionMasterBtnHover.jpg");
+}
+
+#menuSubstitutionMaster.selected{
+	background: url("../../system/html/images/menuSubstitutionMasterBtnHover.jpg");
+}
+
+
+
+
+#menuSkolemizer {
+	background: url("../../system/html/images/menuSkolemizerBtn.jpg");
+	height:23px;
+	width:95px;
+}
+
+#menuSkolemizer:hover {
+	background: url("../../system/html/images/menuSkolemizerBtnHover.jpg");
+}
+
+#menuSkolemizer.selected{
+	background: url("../../system/html/images/menuSkolemizerBtnHover.jpg");
+}
+#menuPrenex{
+	background: url("../../system/html/images/menuPrenexBtn.jpg");
+	height:23px;
+	width:61px;
+}
+
+#menuPrenex:hover{
+    background: url("../../system/html/images/menuPrenexBtnHover.jpg");
+}
+
+#menuPrenex.seleted{
+    background: url("../../system/html/images/menuPrenexBtnHover.jpg");
+}
+
+
+.menuBtn {
+	background: url("../../system/html/images/menuBtn.jpg") no-repeat;
+	height:19px;
+	width:120px;
+	text-align: center;
+	padding: 4px;
+	font: georgian 10px bold;
+
+}
+
+.menuBtn:hover {
+	background: url("../../system/html/images/menuBtnHover.jpg") no-repeat;
+}
+
+.menuBtn.selected{
+	background: url("../../system/html/images/menuBtnHover.jpg") no-repeat;
+}
