@@ -6,11 +6,11 @@ function createTreeInteraction() {
 	if (node.size() == 1) {
 		var node = node[0];
 		var pars = 'action=getTreeToInteract&formula=' + node.id;
-		updateWindow('area', '/logicamente/src/controller.php', pars);
+		updateWindow('area', 'src/controller.php', pars);
 		startTreeInteraction ();
 	} else {
 		var pars = 'action=getTreeToInteract&formula=-1';
-		updateWindow('area', '/logicamente/src/controller.php', pars);
+		updateWindow('area', 'src/controller.php', pars);
 	}
 	$('area').style.display = "";
 }
@@ -50,7 +50,7 @@ function startTreeInteraction (){
 	});
 	
 	jQuery(".connective, .atom").bind('click',function(){
-		jQuery.post("/logicamente/src/mod_treeinteration/treeajax.php",
+		jQuery.post("src/mod_treeinteration/treeajax.php",
 			{
 				index: jQuery(this).attr("index")
 			},

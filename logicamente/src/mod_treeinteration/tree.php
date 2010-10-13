@@ -43,8 +43,8 @@
 	
 </style>
 
-<script src="/logicamente/js/jquery.js"></script>
-<script src="/logicamente/js/interface.js"></script>
+<script src="jquery.js"></script>
+<script src="interface.js"></script>
 
 <script>	
 
