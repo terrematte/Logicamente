@@ -24,8 +24,8 @@
 
 		<title>Model Builder</title>
 
-		<script src="/logicamente/js/jquery-latest.js"></script>
-		<script src="/logicamente/js/jquery.form.js"></script>
+		<script src="jquery-latest.js"></script>
+		<script src="jquery.form.js"></script>
 
 		<script type="text/javascript">
 

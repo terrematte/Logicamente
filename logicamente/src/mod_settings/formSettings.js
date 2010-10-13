@@ -20,7 +20,7 @@ function setConnectives(arrayCon){
 }
 
 	//up content of area's config
-	updateWindow('config', '/logicamente/src/controller.php', pars);
+	updateWindow('config', 'src/controller.php', pars);
 
 	alert("New Settings are Defined!");
 }

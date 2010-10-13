@@ -7,6 +7,6 @@ function checkFormula(formula){
 			pars += '&'+$(formula).serialize();		
 
 		//up status
-		updateWindow('status', '/logicamente/src/controller.php', pars);
+		updateWindow('status', 'src/controller.php', pars);
 	}
 }

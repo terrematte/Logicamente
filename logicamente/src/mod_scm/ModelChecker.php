@@ -17,8 +17,8 @@
 
 		<title>Model Checker</title>
 
-		<script src="/logicamente/js/jquery.js"> </script>
-		<script src="/logicamente/js/json.js"> </script>
+		<script src="jquery.js"> </script>
+		<script src="json.js"> </script>
 
 		<script type="text/javascript">
 

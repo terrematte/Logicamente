@@ -14,7 +14,7 @@ function generateFormulas(){
 		pars += '&cont=' + cont;
 
 		//up content of area's transfer
-	var request = new Ajax.Request('/logicamente/src/controller.php',{
+	var request = new Ajax.Request('src/controller.php',{
 					method: 'post', parameters: pars, onFailure: reportError,
 					 onSuccess: function(transport) {
 						var formula =(transport.responseText);
@@ -35,7 +35,7 @@ function del(id){
 	$('f'+ id).remove();
 	$('b'+ id).remove();
 	var pars = "&action=delFormula&form=f"+id;
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 					method: 'post', parameters: pars, onFailure: reportError			 
 					 });
 }
@@ -52,7 +52,7 @@ function sel(id){
 		node.removeClassName('selected');
 	});
 	var pars = "&action=selFormula&id="+id;
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 					method: 'post', parameters: pars, onFailure: reportError			 
 					 });
 }

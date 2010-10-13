@@ -9,8 +9,8 @@ function setFormula() {
         
         str = str.replace(/&/,"^");
         var pars = "formula="+str+"&action=readFormula&cont="+cont+"&type="+type;
-        //updateWindow('transfer' , '/logicamente/src/controller.php', pars);
-        new Ajax.Request('/logicamente/src/controller.php',{
+        //updateWindow('transfer' , 'src/controller.php', pars);
+        new Ajax.Request('src/controller.php',{
                     method: 'post', parameters: pars, onFailure: reportError             
                      });
         var formula = $('formula').value;
@@ -27,7 +27,7 @@ function del(id){
 	$('f'+ id).remove();
 	$('b'+ id).remove();
 	var pars = "&action=delFormula&form=f"+id;
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 					method: 'post', parameters: pars, onFailure: reportError			 
 					 });
 }
@@ -45,7 +45,7 @@ function sel(id){
 	});
 
 	var pars = "&action=selFormula&id="+id;
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 					method: 'post', parameters: pars, onFailure: reportError
 
 		});

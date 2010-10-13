@@ -20,9 +20,9 @@ function substitutionMaster() {
         variable = variable.replace(/&/,"^");	
     	
         var pars = "formula="+formula+"&term="+term+"&variable="+variable+"&action=substitution";
-        updateWindow('area' , '/logicamente/src/controller.php', pars);
+        updateWindow('area' , 'src/controller.php', pars);
         $('area').style.display = "";
-        //new Ajax.Request('/logicamente/modules//logicamente/src/controller.php',{
+        //new Ajax.Request('src/controller.php',{
           //          method: 'post', parameters: pars, onFailure: reportError             
             //         });
         /*new Insertion.Bottom('transfer', '<div id = "f'+cont+'">' + formula + '</div>');
@@ -38,7 +38,7 @@ function del(id){
 	$('f'+ id).remove();
 	$('b'+ id).remove()
 	var pars = "&action=delFormula&form=f"+id;
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 					method: 'post', parameters: pars, onFailure: reportError			 
 					 });
 }
@@ -56,7 +56,7 @@ function sel(id){
 	});
 
 	var pars = "&action=selFormula&id="+id;
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 					method: 'post', parameters: pars, onFailure: reportError
 
 		});

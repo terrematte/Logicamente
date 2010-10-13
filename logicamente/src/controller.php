@@ -1,10 +1,10 @@
 <?php
-require_once('/var/www/FirePHPCore/fb.php');
+/*require_once('/var/www/FirePHPCore/fb.php');
 FB::log('Log message');
 FB::info('Info message');
 FB::warn('Warn message');
 FB::error('Error message');
-
+*/
 
 header("Content-Type: text/html;  charset=ISO-8859-1",true);
 ob_start();

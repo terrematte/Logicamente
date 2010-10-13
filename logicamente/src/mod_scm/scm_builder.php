@@ -18,8 +18,8 @@
 
 		<title>SCM</title>
 
-		<script src="/logicamente/js/jquery.js"> </script>
-		<script src="/logicamente/js/json2.js"> </script>
+		<script src="jquery.js"> </script>
+		<script src="json2.js"> </script>
 
 		<script type="text/javascript">
 			var ultFormula ;

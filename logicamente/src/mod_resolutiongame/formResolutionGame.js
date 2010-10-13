@@ -41,7 +41,7 @@ function startGame() {
 	for (var i = 0; i < clauseNumber; i++) {
 		pars += '&'+$("clauseInput"+i).serialize();
 	}
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 		method: 'post',
 		parameters: pars,
 		onSuccess: function(transport) {
@@ -62,12 +62,12 @@ function solve() {
 	for (var i = 0; i < 2; i++) {
 		pars += '&clause'+i+'='+selectedClauses[i].getAttribute("index");
 	}
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 		method: 'post',
 		parameters: pars,
 		onSuccess: function(transport) {
 			new Insertion.Bottom('derivation', transport.responseText);
-			new Ajax.Request('/logicamente/src/controller.php',{
+			new Ajax.Request('src/controller.php',{
 				method: 'post',
 				parameters: 'action=getClauseList',
 				onSuccess: function(transport) {
@@ -90,12 +90,12 @@ function solveAutomatically() {
 	for (var i = 0; i < clauseNumber; i++) {
 		pars += '&clause'+i+'='+$('clause'+i).innerHTML;
 	}
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 		method: 'post',
 		parameters: pars,
 		onSuccess: function(transport) {
 			new Insertion.Bottom('derivation', transport.responseText);
-			new Ajax.Request('/logicamente/src/controller.php',{
+			new Ajax.Request('src/controller.php',{
 				method: 'post',
 				parameters: 'action=getClauseList',
 				onSuccess: function(transport) {
@@ -114,7 +114,7 @@ function solveAutomatically() {
 function resetGame() {
 	$('derivation').innerHTML = "";
 	$('clausesList').innerHTML = "";
-	new Ajax.Request('/logicamente/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 		method: 'post',
 		parameters: "action=resetGame",
 		onFailure: reportError
