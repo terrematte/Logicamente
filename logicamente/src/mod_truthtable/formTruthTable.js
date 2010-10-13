@@ -6,10 +6,10 @@ function creatTruthTable() {
 	if (node.size() == 1) {
 		var node = node[0];
 		var pars = 'action=creatTT&formula=' + node.id;
-		updateWindow('area', '/system/src/controller.php', pars);
+		updateWindow('area', '/logicamente/src/controller.php', pars);
 	} else {
 		var pars = 'action=creatTT&formula=-1';
-		updateWindow('area', '/system/src/controller.php', pars);
+		updateWindow('area', '/logicamente/src/controller.php', pars);
 	}
 	$('area').style.display = "";
 }

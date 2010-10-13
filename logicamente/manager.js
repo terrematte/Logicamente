@@ -26,7 +26,7 @@ Event.observe(window, 'load', function(){
 	Event.observe('menuPrenex', 'click', updateContent.bind(this, "menuPrenex"));
 
 	//disparar a acao de resetar a session sempre que a pagina for carregada
-	new Ajax.Request('/system/src/controller.php',{
+	new Ajax.Request('src/controller.php',{
 					method: 'post', parameters: "action=load", onFailure: reportError
 					 });
 	//caso o link seja do tipo URL#menuGenerator
@@ -36,23 +36,23 @@ Event.observe(window, 'load', function(){
 			updateContent(url[1]);
 		}
 	} else {
-		updateWindow('helpContent', '/system/src/controller.php', 'helpModule=logicamente');
+		updateWindow('helpContent', 'src/controller.php', 'helpModule=logicamente');
 	}
 
 });
 
 function updateContent(element){
 	//content
-	updateWindow('content'    , '/system/src/controller.php', 'module='+$(element).id);
+	updateWindow('content'    , 'src/controller.php', 'module='+$(element).id);
 
 	//help
-	updateWindow('helpContent', '/system/src/controller.php', 'helpModule='+$(element).id);
+	updateWindow('helpContent', 'src/controller.php', 'helpModule='+$(element).id);
 
 	//javascript
-	upJs('js', '/system/src/controller.php', 'js='+$(element).id);
+	upJs('js', 'src/controller.php', 'js='+$(element).id);
 
 	//css
-	upCss("css", "/system/src/controller.php", "css="+$(element).id);
+	upCss("css", "src/controller.php", "css="+$(element).id);
 
 	//menu
 	selectMenu( $(element) );

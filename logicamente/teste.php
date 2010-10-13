@@ -9,7 +9,7 @@
 
 
 
-$_Session['PATH'] = "http://localhost/system/";
+$_Session['PATH'] = "http://localhost/logicamente/";
 
 
 

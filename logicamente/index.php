@@ -51,7 +51,7 @@ $firephp->log('Message','Optional Label');
 ob_start();
 session_start();
 /**
-$_SESSION['PATH'] = "/var/www/system/";
+$_SESSION['PATH'] = "/var/www/logicamente/";
 */
 
 
