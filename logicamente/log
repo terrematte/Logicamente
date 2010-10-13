@@ -1,0 +1,6 @@
+Version: 9.04
+	Data: 14/04 - Implanta��o do logicamente 9.04 em "http://www.lolita.dimap.ufrn.br/logicamente"
+	Data: 13/04 - Modifica��o do endere�o de acesso entre arquivos (De "http://localhost/logicamente" para  "../..").
+	Data: 03/04 - Habilita��o do Formula Reader para 1st-Order & Propositional + Adi��o da Aba do Substitution Master.
+    Data: 04/06 - Adi��o da Aba do Skolemizer.
+    Data: 15/08 - Ajuste no Prenex.

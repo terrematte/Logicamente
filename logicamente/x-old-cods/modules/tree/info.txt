@@ -1,0 +1,6 @@
+Informações Básicas sobre o Trabalho:
+- Foi gerada uma Função simples, para buscar uma dada árvore gerada, e coloca-la de forma agradavel na página.
+
+- Não foi possivel trabalhar com os Nodes de LCPO, preciso entrar em contato com o Grupo de Carlos Breno, para conseguir o código atualizado de seu trabalho. Gostaria muito de recebe-lo, para implementar na minha função, idependente de nota.
+
+- Eventos de uso do mouse, serão possiveis através da Classe JQuery, eu a estudei nestes ultimos dias, mas preferi aplica-la apenas após integrar a parte de LCPO, pois, tenho certeza que com o uso de quantificadores, estes eventos serão reformulados.
