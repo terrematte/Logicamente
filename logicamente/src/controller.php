@@ -16,6 +16,7 @@ require_once("Logicamente.class.php");
 
 	//display modules
 	if (isset($_POST['module'])){
+
 		switch ($_POST['module']){
 			case "menuSettings"  : require_once("mod_settings/settings.php");	  break;
 			case "menuGenerator" : require_once("mod_generator/generator.php");  break;
@@ -31,6 +32,7 @@ require_once("Logicamente.class.php");
 			case "menuPrenex" : require_once("mod_prenexconverter/formPrenex.php"); break;
 			default: break;
 		}
+
 	}
 
 	//display helpmodules
@@ -104,7 +106,7 @@ require_once("Logicamente.class.php");
 
 	function procura($index, $formula){
 		global $counter;
-		echo ($counter."<br>");
+		echo ($counter."<br/>");
 		if ($counter == $index)
 			return $formula;
 		else {
