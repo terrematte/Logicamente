@@ -1,0 +1,17 @@
+To install the LOGICAMENTE you must copy the directory /logicamente to:
+
+# /var/www/moodle/mod/
+
+With permissions of reading and writting to the directory:
+
+# chmod -R 755 /var/www/moodle/mod/logicamente/
+
+Now you must logon in the MOODLE with a Administrator account and create a new Recourse's Activity of a Course with the new module LOGICAMENTE.
+
+
+
+What to do next
+---------------
+
+TODO!
+...
